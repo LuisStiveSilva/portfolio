@@ -1,0 +1,29 @@
+.contact {
+  min-height: 90vh;
+  border-top: 2px solid $darkTurquoise;
+  padding: 90px 0;
+  background-color: $black;
+  &__grid {
+    display: grid;
+    padding-top: 150px;
+    text-align: center;
+    @include desktop {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 100px;
+    }
+    &__link {
+      color: $grey;
+      cursor: pointer;
+      padding-bottom: 50px;
+      &:hover {
+        color: $white;
+      }
+    }
+    &__item {
+      font-size: 75px;
+    }
+    &__title {
+      padding-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.footer {
+  background-color: $black;
+  color: $grey;
+  padding: 20px 0;
+  > p {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+}

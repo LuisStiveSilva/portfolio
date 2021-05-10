@@ -1,0 +1,63 @@
+.about {
+  min-height: 100vh;
+  background-color: $black;
+  padding: 90px 0;
+  text-align: center;
+  &__grid {
+    display: grid;
+    @include desktop {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 40px;
+    }
+  }
+  &__description {
+    text-align: left;
+    &__title {
+      color: $darkTurquoise;
+      margin-bottom: 30px;
+    }
+
+    &__image {
+      width: 100px;
+      height: 100px;
+      padding-bottom: 30px;
+      object-fit: cover;
+      border-radius: 50%;
+      @include desktop {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+  &__skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    @include mobile {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    &__title {
+      grid-column: span 3;
+      text-align: left;
+      color: $darkTurquoise;
+      @include mobile {
+        grid-column: span 2;
+      }
+    }
+    &__item {
+      font-size: 50px;
+      color: $grey;
+      min-width: 75px;
+      padding: 5px;
+      background-color: $softBlack;
+      &__name {
+        font-size: 2rem;
+        text-align: center;
+      }
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}
