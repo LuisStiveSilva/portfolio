@@ -189,7 +189,7 @@ a {
   }
 }
 .home__background {
-  background-image: url(../../images/background.jpg);
+  background-image: url(../images/background.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
