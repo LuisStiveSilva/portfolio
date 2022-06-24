@@ -1,295 +1,488 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="dist/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/styles.css" />
     <title>Stive Silva</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <nav class="navbar">
-            <div class="navbar__logo">
-                <a class="navbar__title" href="#home">stive-silva</a>
-            </div>
-            <div class="navbar__btn">
-                <i class="fas fa-bars"></i>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__menu__item"><a href="#home">Inicio</a></li>
-                <li class="navbar__menu__item"><a href="#about">Sobre mí</a></li>
-                <li class="navbar__menu__item"><a href="#projects">Proyectos</a></li>
-                <li class="navbar__menu__item"><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
+      <nav class="navbar">
+        <div class="navbar__logo">
+          <a class="navbar__title" href="#home">stive-silva</a>
+        </div>
+        <div class="navbar__btn">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__menu__item"><a href="#home">Inicio</a></li>
+          <li class="navbar__menu__item"><a href="#about">Sobre mí</a></li>
+          <li class="navbar__menu__item"><a href="#projects">Proyectos</a></li>
+          <li class="navbar__menu__item"><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
     </div>
     <section id="home" class="home">
-        <div class="home__background"></div>
-        <div class="home__img">
-            <img class="home__img__profile" src="images/edit.png" alt="">
-        </div>
-        <div class="home__description">
-            <span class="home__description__text">Hola</span>
-            <h1 class="home__description__name">Soy <span>Stive Silva</span></h1>
-            <span class="home__description__text">- Frontend Developer -</span>
-        </div>
+      <div class="home__background"></div>
+      <div class="home__img">
+        <img class="home__img__profile" src="images/edit.png" alt="" />
+      </div>
+      <div class="home__description">
+        <span class="home__description__text">Hola</span>
+        <h1 class="home__description__name">Soy <span>Stive Silva</span></h1>
+        <span class="home__description__text">- Frontend Developer -</span>
+      </div>
     </section>
 
     <section id="about" class="about">
-        <div class="section-container">
-            <h1 class="title">Sobre Mí</h1>
-            <div class="about__grid">
-                <div class="about__description">
-                    <h2 class="about__description__title">¿Quién soy?</h2>
-                    <p class="text">Soy un estudiante de Ingeniería de Sistemas. Vivo en Lima, Perú y actualmente, aparte de estudiar la carrera, estudio Diseño Web por mi cuenta.</p>
-                </div>
-                <div>
-                    <img class="about__description__image" src="images/dev.png" alt="">
-                </div>
-                <div class="about__skills">
-                    <div class="about__skills__title">
-                        <h2>Habilidades</h2>
-                    </div>
-                    <div class="about__skills__item">
-                        <i class="fab fa-html5"></i>
-                        <div class="about__skills__item__name">HTML</div>
-                    </div>
-                    <div class="about__skills__item">
-                        <i class="fab fa-css3-alt"></i>
-                        <div class="about__skills__item__name">CSS</div>
-                    </div>
-                    <div class="about__skills__item">
-                        <i class="fab fa-js"></i>
-                        <div class="about__skills__item__name">JAVASCRIPT</div>
-                    </div>
-                    <div class="about__skills__item">
-                        <i class="fab fa-sass"></i>
-                        <div class="about__skills__item__name">SASS</div>
-                    </div>
-                    <div class="about__skills__item">
-                        <i class="fab fa-git-alt"></i>
-                        <div class="about__skills__item__name">GIT</div>
-                    </div>
-                </div>
-            </div>
+      <div class="section-container">
+        <h1 class="title">Sobre Mí</h1>
+        <div class="about__description__container">
+          <div class="about__description">
+            <h2 class="about__description__title">¿Quién soy?</h2>
+            <p class="text">
+              Soy un estudiante de Ingeniería de Sistemas. Vivo en Lima, Perú y
+              actualmente, aparte de estudiar la carrera, estudio Diseño Web por
+              mi cuenta.
+            </p>
+          </div>
+          <div class="about__description__image__container">
+            <img
+              class="about__description__image"
+              src="images/dev.png"
+              alt=""
+            />
+          </div>
         </div>
+        <div class="about__grid">
+          <div class="about__skills">
+            <div class="about__skills__title">
+              <h2>Habilidades</h2>
+            </div>
+            <div class="about__skills__item">
+              <i class="fab fa-html5"></i>
+              <div class="about__skills__item__name">HTML</div>
+            </div>
+            <div class="about__skills__item">
+              <i class="fab fa-css3-alt"></i>
+              <div class="about__skills__item__name">CSS</div>
+            </div>
+            <div class="about__skills__item">
+              <i class="fab fa-js"></i>
+              <div class="about__skills__item__name">JavaScript</div>
+            </div>
+            <div class="about__skills__item">
+              <i class="fab fa-sass"></i>
+              <div class="about__skills__item__name">SASS</div>
+            </div>
+            <div class="about__skills__item">
+              <i class="fab fa-react"></i>
+              <div class="about__skills__item__name">React</div>
+            </div>
+            <div class="about__skills__item">
+              <i class="fab fa-vuejs"></i>
+              <div class="about__skills__item__name">Vue</div>
+            </div>
+            <div class="about__skills__item">
+              <i class="fab fa-git-alt"></i>
+              <div class="about__skills__item__name">Git</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="projects" class="projects">
-        <div class="section-container">
-            <h1 class="title">Proyectos</h1>
-            <div class="projects__grid">
-
-                <div class="projects__item">
-                    <img src="images/proyectos/covid-19-stats.png" alt="Proyecto covid-19-stats" class="projects__item__img">
-                    <div class="projects__item__description">
-                        <h3 class="projects__item__description__title">Estadisticas globales del covid-19</h3>
-                        <p class="projects__item__description__text">Proyecto utilizando una api de covid-19</p>
-                        <div class="projects__item__description__button__container">
-                            <a href="https://luisstivesilva.github.io/covid-19-estadisticas/" class="button" target="_blank">
-                                <i class="fas fa-globe-americas"></i>
-                                Website
-                            </a>
-                            <a href="https://github.com/LuisStiveSilva/covid-19-estadisticas " class="button" target="_blank">
-                                <i class="fab fa-github"></i>
-                                Repositorio
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="projects__item">
-                    <img src="images/proyectos/pokemon.png" alt="Proyecto pokedex" class="projects__item__img">
-                    <div class="projects__item__description">
-                        <h3 class="projects__item__description__title">Pokémon Random Generator</h3>
-                        <p class="projects__item__description__text">Proyecto usando la API Pokedex</p>
-                        <div class="projects__item__description__button__container">
-                            <a href="https://luisstivesilva.github.io/pokemon-generator/" class="button" target="_blank">
-                                <i class="fas fa-globe-americas"></i>
-                                Website
-                            </a>
-                            <a href="https://github.com/LuisStiveSilva/pokemon-generator" class="button" target="_blank">
-                                <i class="fab fa-github"></i>
-                                Repositorio
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="projects__item">
-                    <img src="images/proyectos/app-ideas-2.png" alt="Proyecto Border Radius" class="projects__item__img">
-                    <div class="projects__item__description">
-                        <h3 class="projects__item__description__title">Border Radius</h3>
-                        <p class="projects__item__description__text">Interfaz para cambiar el border-radius a una caja</p>
-                        <div class="projects__item__description__button__container">
-                            <a href="https://luisstivesilva.github.io/border-radius/" class="button" target="_blank">
-                                <i class="fas fa-globe-americas"></i>
-                                Website
-                            </a>
-                            <a href="https://github.com/LuisStiveSilva/border-radius" class="button" target="_blank">
-                                <i class="fab fa-github"></i>
-                                Repositorio
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="projects__item">
-                    <img src="images/proyectos/app-ideas-1.png" alt="Proyecto Bin2Dec" class="projects__item__img">
-                    <div class="projects__item__description">
-                        <h3 class="projects__item__description__title">Bin 2 Dec</h3>
-                        <p class="projects__item__description__text">Conversor de binario a decimal</p>
-                        <div class="projects__item__description__button__container">
-                            <a href="https://luisstivesilva.github.io/bin2dec/" class="button" target="_blank">
-                                <i class="fas fa-globe-americas"></i>
-                                Website
-                            </a>
-                            <a href="https://github.com/LuisStiveSilva/bin2dec" class="button" target="_blank">
-                                <i class="fab fa-github"></i>
-                                Repositorio
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="projects__item">
-                    <img src="images/proyectos/frontend-mentor-4.png" alt="Proyecto 1" class="projects__item__img">
-                    <div class="projects__item__description">
-                        <h3 class="projects__item__description__title">Social proof section</h3>
-                        <p class="projects__item__description__text">Challenge de Frontend Mentor</p>
-                        <div class="projects__item__description__button__container">
-                            <a href="https://luisstivesilva.github.io/frontendmentor-challenge-4/" class="button" target="_blank">
-                                <i class="fas fa-globe-americas"></i>
-                                Website
-                            </a>
-                            <a href="https://github.com/LuisStiveSilva/frontendmentor-challenge-4" class="button" target="_blank">
-                                <i class="fab fa-github"></i>
-                                Repositorio
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="projects__item">
-                    <img src="images/proyectos/frontend-mentor-3.png" alt="Proyecto 2" class="projects__item__img">
-                    <div class="projects__item__description">
-                        <h3 class="projects__item__description__title">FAQ accordion card</h3>
-                        <p class="projects__item__description__text">Challenge de Frontend Mentor</p>
-                        <div class="projects__item__description__button__container">
-                            <a href="https://luisstivesilva.github.io/frontendmentor-challenge-3/" class="button" target="_blank">
-                                <i class="fas fa-globe-americas"></i>
-                                Website
-                            </a>
-                            <a href="https://github.com/LuisStiveSilva/frontendmentor-challenge-3" class="button" target="_blank">
-                                <i class="fab fa-github"></i>
-                                Repositorio
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="projects__item">
-                    <img src="images/proyectos/frontend-mentor-2.png" alt="Proyecto 3" class="projects__item__img">
-                    <div class="projects__item__description">
-                        <h3 class="projects__item__description__title">Profile card component</h3>
-                        <p class="projects__item__description__text">Challenge de Frontend Mentor</p>
-                        <div class="projects__item__description__button__container">
-                            <a href="https://luisstivesilva.github.io/frontendmentor-challenge-2/" class="button" target="_blank">
-                                <i class="fas fa-globe-americas"></i>
-                                Website
-                            </a>
-                            <a href="https://github.com/LuisStiveSilva/frontendmentor-challenge-2" class="button" target="_blank">
-                                <i class="fab fa-github"></i>
-                                Repositorio
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="projects__item">
-                    <img src="images/proyectos/frontend-mentor-1.png" alt="Proyecto 4" class="projects__item__img">
-                    <div class="projects__item__description">
-                        <h3 class="projects__item__description__title">3 Column preview card component</h3>
-                        <p class="projects__item__description__text">Challenge de Frontend Mentor</p>
-                        <div class="projects__item__description__button__container">
-                            <a href="https://luisstivesilva.github.io/frontendmentor-challenge-1/" class="button" target="_blank">
-                                <i class="fas fa-globe-americas"></i>
-                                Website
-                            </a>
-                            <a href="https://github.com/LuisStiveSilva/frontendmentor-challenge-1" class="button" target="_blank">
-                                <i class="fab fa-github"></i>
-                                Repositorio
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="projects__item">
-                    <img src="images/proyectos/frontend-mentor-5.png" alt="Proyecto 5" class="projects__item__img">
-                    <div class="projects__item__description">
-                        <h3 class="projects__item__description__title">Stats preview card</h3>
-                        <p class="projects__item__description__text">Challenge de Frontend Mentor</p>
-                        <div class="projects__item__description__button__container">
-                            <a href="https://luisstivesilva.github.io/frontendmentor-challenge-5/" class="button" target="_blank">
-                                <i class="fas fa-globe-americas"></i>
-                                Website
-                            </a>
-                            <a href="https://github.com/LuisStiveSilva/frontendmentor-challenge-5" class="button" target="_blank">
-                                <i class="fab fa-github"></i>
-                                Repositorio
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                
+      <div class="section-container">
+        <h1 class="title">Proyectos</h1>
+        <div class="projects__grid">
+          <div class="projects__item">
+            <img
+              src="images/proyectos/covid-19-stats.png"
+              alt="Proyecto covid-19-stats"
+              class="projects__item__img"
+            />
+            <div class="projects__item__description">
+              <h3 class="projects__item__description__title">
+                Estadisticas globales del covid-19
+              </h3>
+              <p class="projects__item__description__text">
+                Proyecto utilizando una api de covid-19
+              </p>
+              <div class="projects__item__description__button__container">
+                <a
+                  href="https://luisstivesilva.github.io/covid-19-estadisticas/"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fas fa-globe-americas"></i>
+                  Website
+                </a>
+                <a
+                  href="https://github.com/LuisStiveSilva/covid-19-estadisticas "
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  Repositorio
+                </a>
+              </div>
             </div>
+          </div>
+
+          <div class="projects__item">
+            <img
+              src="images/proyectos/pokemon.png"
+              alt="Proyecto pokedex"
+              class="projects__item__img"
+            />
+            <div class="projects__item__description">
+              <h3 class="projects__item__description__title">
+                Pokémon Random Generator
+              </h3>
+              <p class="projects__item__description__text">
+                Proyecto usando la API Pokedex
+              </p>
+              <div class="projects__item__description__button__container">
+                <a
+                  href="https://luisstivesilva.github.io/pokemon-generator/"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fas fa-globe-americas"></i>
+                  Website
+                </a>
+                <a
+                  href="https://github.com/LuisStiveSilva/pokemon-generator"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  Repositorio
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__item">
+            <img
+              src="images/proyectos/app-ideas-2.png"
+              alt="Proyecto Border Radius"
+              class="projects__item__img"
+            />
+            <div class="projects__item__description">
+              <h3 class="projects__item__description__title">Border Radius</h3>
+              <p class="projects__item__description__text">
+                Interfaz para cambiar el border-radius a una caja
+              </p>
+              <div class="projects__item__description__button__container">
+                <a
+                  href="https://luisstivesilva.github.io/border-radius/"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fas fa-globe-americas"></i>
+                  Website
+                </a>
+                <a
+                  href="https://github.com/LuisStiveSilva/border-radius"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  Repositorio
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__item">
+            <img
+              src="images/proyectos/app-ideas-1.png"
+              alt="Proyecto Bin2Dec"
+              class="projects__item__img"
+            />
+            <div class="projects__item__description">
+              <h3 class="projects__item__description__title">Bin 2 Dec</h3>
+              <p class="projects__item__description__text">
+                Conversor de binario a decimal
+              </p>
+              <div class="projects__item__description__button__container">
+                <a
+                  href="https://luisstivesilva.github.io/bin2dec/"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fas fa-globe-americas"></i>
+                  Website
+                </a>
+                <a
+                  href="https://github.com/LuisStiveSilva/bin2dec"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  Repositorio
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__item">
+            <img
+              src="images/proyectos/frontend-mentor-4.png"
+              alt="Proyecto 1"
+              class="projects__item__img"
+            />
+            <div class="projects__item__description">
+              <h3 class="projects__item__description__title">
+                Social proof section
+              </h3>
+              <p class="projects__item__description__text">
+                Challenge de Frontend Mentor
+              </p>
+              <div class="projects__item__description__button__container">
+                <a
+                  href="https://luisstivesilva.github.io/frontendmentor-challenge-4/"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fas fa-globe-americas"></i>
+                  Website
+                </a>
+                <a
+                  href="https://github.com/LuisStiveSilva/frontendmentor-challenge-4"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  Repositorio
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__item">
+            <img
+              src="images/proyectos/frontend-mentor-3.png"
+              alt="Proyecto 2"
+              class="projects__item__img"
+            />
+            <div class="projects__item__description">
+              <h3 class="projects__item__description__title">
+                FAQ accordion card
+              </h3>
+              <p class="projects__item__description__text">
+                Challenge de Frontend Mentor
+              </p>
+              <div class="projects__item__description__button__container">
+                <a
+                  href="https://luisstivesilva.github.io/frontendmentor-challenge-3/"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fas fa-globe-americas"></i>
+                  Website
+                </a>
+                <a
+                  href="https://github.com/LuisStiveSilva/frontendmentor-challenge-3"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  Repositorio
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__item">
+            <img
+              src="images/proyectos/frontend-mentor-2.png"
+              alt="Proyecto 3"
+              class="projects__item__img"
+            />
+            <div class="projects__item__description">
+              <h3 class="projects__item__description__title">
+                Profile card component
+              </h3>
+              <p class="projects__item__description__text">
+                Challenge de Frontend Mentor
+              </p>
+              <div class="projects__item__description__button__container">
+                <a
+                  href="https://luisstivesilva.github.io/frontendmentor-challenge-2/"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fas fa-globe-americas"></i>
+                  Website
+                </a>
+                <a
+                  href="https://github.com/LuisStiveSilva/frontendmentor-challenge-2"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  Repositorio
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__item">
+            <img
+              src="images/proyectos/frontend-mentor-1.png"
+              alt="Proyecto 4"
+              class="projects__item__img"
+            />
+            <div class="projects__item__description">
+              <h3 class="projects__item__description__title">
+                3 Column preview card component
+              </h3>
+              <p class="projects__item__description__text">
+                Challenge de Frontend Mentor
+              </p>
+              <div class="projects__item__description__button__container">
+                <a
+                  href="https://luisstivesilva.github.io/frontendmentor-challenge-1/"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fas fa-globe-americas"></i>
+                  Website
+                </a>
+                <a
+                  href="https://github.com/LuisStiveSilva/frontendmentor-challenge-1"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  Repositorio
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__item">
+            <img
+              src="images/proyectos/frontend-mentor-5.png"
+              alt="Proyecto 5"
+              class="projects__item__img"
+            />
+            <div class="projects__item__description">
+              <h3 class="projects__item__description__title">
+                Stats preview card
+              </h3>
+              <p class="projects__item__description__text">
+                Challenge de Frontend Mentor
+              </p>
+              <div class="projects__item__description__button__container">
+                <a
+                  href="https://luisstivesilva.github.io/frontendmentor-challenge-5/"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fas fa-globe-americas"></i>
+                  Website
+                </a>
+                <a
+                  href="https://github.com/LuisStiveSilva/frontendmentor-challenge-5"
+                  class="button"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  Repositorio
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="contact" class="contact">
-        <div class="section-container">
-            <h1 class="title">Contacto</h1>
-            <p class="text">
-                Estoy en busca de oportunidades para colaborar con empresas, brindándoles todo mi conocimiento y abierto a aprender nuevas tecnologías.
-            </p>
-            <p class="text">
-                Si está interesado en mi perfil, siéntese libre de contactarme.
-            </p>
-            <div class="contact__grid">
-                <a class="contact__grid__link" href="mailto:luis.silva.prudencio@gmail.com?Subject=Oferta%20de%20trabajo" target="_blank">
-                    <i class="contact__grid__item far fa-envelope"></i>
-                    <div class="contact__grid__title">E-mail</div>
-                </a>
-                <a class="contact__grid__link" href="https://github.com/LuisStiveSilva" target="_blank">
-                    <i class="contact__grid__item fab fa-github"></i>
-                    <div class="contact__grid__title">Github</div>
-                </a>
-                <a class="contact__grid__link" href="assets/Stive Silva.pdf" target="_blank">
-                    <i class="contact__grid__item far fa-file-pdf"></i>
-                    <div class="contact__grid__title">Curriculum Vitae</div>
-                </a>
-                <a class="contact__grid__link" href="https://www.linkedin.com/in/luis-stive-silva-prudencio-50378b211/" target="_blank">
-                    <i class="contact__grid__item fab fa-linkedin-in"></i>
-                    <div class="contact__grid__title">LinkedIn</div>
-                </a>
-            </div>
+      <div class="section-container">
+        <h1 class="title">Contacto</h1>
+        <p class="text">
+          Estoy en busca de oportunidades para colaborar con empresas,
+          brindándoles todo mi conocimiento y abierto a aprender nuevas
+          tecnologías.
+        </p>
+        <p class="text">
+          Si está interesado en mi perfil, siéntese libre de contactarme.
+        </p>
+        <div class="contact__grid">
+          <a
+            class="contact__grid__link"
+            href="mailto:luis.silva.prudencio@gmail.com?Subject=Oferta%20de%20trabajo"
+            target="_blank"
+          >
+            <i class="contact__grid__item far fa-envelope"></i>
+            <div class="contact__grid__title">E-mail</div>
+          </a>
+          <a
+            class="contact__grid__link"
+            href="https://github.com/LuisStiveSilva"
+            target="_blank"
+          >
+            <i class="contact__grid__item fab fa-github"></i>
+            <div class="contact__grid__title">Github</div>
+          </a>
+          <a
+            class="contact__grid__link"
+            href="assets/Stive Silva.pdf"
+            target="_blank"
+          >
+            <i class="contact__grid__item far fa-file-pdf"></i>
+            <div class="contact__grid__title">Curriculum Vitae</div>
+          </a>
+          <a
+            class="contact__grid__link"
+            href="https://www.linkedin.com/in/luis-stive-silva-prudencio-50378b211/"
+            target="_blank"
+          >
+            <i class="contact__grid__item fab fa-linkedin-in"></i>
+            <div class="contact__grid__title">LinkedIn</div>
+          </a>
         </div>
+      </div>
     </section>
 
     <footer class="footer">
-        <p>Copyright &copy; 2021.</p>
-        <p>All Rights Reserved</p>
+      <p>Copyright &copy; 2021.</p>
+      <p>All Rights Reserved</p>
     </footer>
 
-    <script src="https://kit.fontawesome.com/dc56f53266.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/dc56f53266.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="app/js/script.js"></script>
-</body>
+  </body>
 </html>
